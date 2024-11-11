@@ -1,0 +1,10 @@
+.thanks-giving{
+    width:200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yes,
+.no{
+    display:inline-block;
+    vertical-align: middle;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>facebook header</title>
+
+        <style>
+            body{
+                height: 1000px;
+            }
+            .header{
+                display: flex;
+                padding-left: 100px;
+                position: fixed;
+                left: 0;
+                right: 0;
+                top: 15px;
+                height: 50px;
+            }
+
+            .profile{
+                width: 50px;
+                height: 50px;
+                object-fit: cover; 
+                object-position: center;
+                border-radius: 25px;
+            }
+
+            .name{
+                font-family: arial;
+                font-size: 16px;
+                font-weight: 700;
+                margin-left: 10px;
+                flex: 1;
+            }
+
+            .add-friend-button{
+                background-color: rgb(71, 117, 255);
+                color: white;
+                font-size: 16px;
+                font-family: arial;
+                font-weight: 700;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border: none;
+                border-radius: 8px;
+                margin-right: 10px;
+            }
+            .message-button{
+                background-color:rgb(182, 182, 182);
+                color: black;
+                font-size: 16px;
+                font-family: arial;
+                font-weight: 700;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border: none;
+                border-radius: 8px;
+                margin-right: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <img class=" profile" src="../exercise7/cat.jpg">
+            <p class="name">Oliver Cat</p>
+            <button class="add-friend-button">
+                Add Friend
+            </button>
+            <button class="message-button">
+                Message
+            </button>
+        </div>
+    </body>
+</html>

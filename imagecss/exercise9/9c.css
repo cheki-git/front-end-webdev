@@ -1,0 +1,18 @@
+.thanks-giving{
+    width:200px;
+    display: block;
+}
+.yes,
+.no{
+    display:inline-block;
+    vertical-align: middle;
+}
+.feedback{
+    width: 250px;
+    height: 100px;
+    padding-left: 10px;
+    border-color: rgba(128, 128, 128, 0.647);
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+}

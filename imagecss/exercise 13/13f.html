@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meow supersimple</title>
+        
+        <style>
+            .whole-block{
+                display: flex;
+                align-items: top;
+                width: 450px;
+            }
+            .profile-picture{
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                object-position:center ;
+                border-radius: 30px;
+                margin-right: 15px;
+            }
+            p{
+                font-family: arial;
+                font-size: 16px;
+                margin-top:0;
+                margin-bottom: 8px;
+                color: black;
+            }
+
+            .name{
+                font-weight: 700; 
+            }
+
+            .name-link{
+                color: gray;
+                font-weight: 400;
+            }
+
+            .link-block{
+                display: flex;
+                width:345px;
+
+                border-style: solid;
+                border-width: 1.5px;
+                border-color: rgb(205, 205, 205);
+                border-radius: 18px;
+            }
+            .empty-block{
+                width:150px;
+                background-color: rgb(205, 205, 205);
+                border-top-left-radius: 16px;
+                border-bottom-left-radius: 16px;
+            }
+            .website-block{
+                padding-top:15px;
+                padding-bottom:15px;
+                padding-left: 10px;
+            }
+            .website{
+                color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="whole-block">
+            <img class="profile-picture" src="../exercise7/cat.jpg">
+            <div>
+                <p class="name">supersimple.dev<span class="name-link"> @SuperSimpleDev</span></p>
+                <P class="description">What is backend web development? A complete overview.
+                    New video is up!
+                </P>
+                <div class="link-block">
+                    <div class="empty-block"></div>
+                    <div class="website-block">
+                        <p class="website">youtube.com</p>
+                        <P class="description">Backend web delevelopment - a complete
+                            overview (2021)</P>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

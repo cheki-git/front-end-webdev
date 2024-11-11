@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>faq bar</title>
+        <style>
+            .profile-bar{
+                padding-top: 15px;
+                background-color:rgba(0, 0, 0, 0.856);
+                position: fixed;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width:100px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .faq-bar{
+                padding-left: 15px;
+                padding-top: 15px;
+                background-color:rgba(0, 0, 0, 0.758);
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 100px;
+                width: 300px;
+            }
+
+            .profile-picture{
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                object-position: center;
+                border: none;
+                border-radius: 30px;
+                margin-bottom: 15px;
+            }
+            P{
+                color: rgb(189, 189, 189);
+                font-family: arial;
+                font-size: 16px;
+                height: 16px;
+            }
+            .info-bar{
+                padding-right: 15px;
+                display: flex;
+                justify-content: space-between;
+            }
+            .info{
+                color: white;
+                font-weight: 700;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="whole-block">
+            <div class="profile-bar">
+                <img class="profile-picture" src="../exercise7/cat.jpg">
+                <img class="profile-picture" src="../exercise9/cat2.jpg">
+                <img class="profile-picture" src="../exercise9/dog.jpg">
+            </div>
+            <div class="faq-bar">
+                <div class="info-bar">
+                    <p class="info">INFO</p>
+                    <p class="plus">+</p>
+                </div>
+                <p># new-videos</p>
+                <p># updates</p>
+                <p># faq</p>
+            </div>
+        </div>
+    </body>
+</html>

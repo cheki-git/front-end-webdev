@@ -1,0 +1,37 @@
+<style>
+    .whole-block{
+        display: flex;
+    }
+    .item2{
+        height: 70px;
+        width: 200px;
+        background-color: lightblue;
+
+    }
+    .row2-part{
+        background-color: black;
+        color: white;
+    }
+
+    .item1{
+        height: 70px;
+        width: 100px;
+        background-color: lightpink;
+    }
+    .item2-subblock{
+        display: flex;
+        align-items: center;
+        justify-content:space-between ;
+    }
+</style>
+
+<div class="whole-block">
+    <div class="item1"></div>
+    <div class="item2">
+        <div>row1</div>
+        <div class="item2-subblock">
+            <span class="row2-part">row2</span>
+            <span class="row2-part">row2</span>
+        </div>
+    </div>
+</div>

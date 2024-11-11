@@ -1,0 +1,14 @@
+p{
+    text-align:center;
+    line-height: 21px;
+}
+.title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.order{
+    font-size:20px;
+}
+.delivery{
+    text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+.mail-list-grid{
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+p{
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 16px;
+    color: gray;
+    font-size: 14px;
+}
+
+.main-block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px; 
+}
+.profile-picture{
+    width:50px;
+    height: 50px; 
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+.subject-time-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: black;
+}
+
+.remarks{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    margin-bottom:6px;
+}

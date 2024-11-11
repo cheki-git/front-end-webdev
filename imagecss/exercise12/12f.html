@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> heafder exercise</title>
+        <style>
+            .header{
+                display: flex;
+                height: 56px;
+                align-items: center;
+                background-color: rgba(68, 0, 132, 0.615);
+            }
+            div{
+                font-family: arial;
+            }
+            .home-block{
+                width: 80px;
+            }
+            .search-block{
+                margin-left: 60px;
+                margin-right: 50px;
+
+                flex: 1;
+                display: flex;
+                justify-content: center;
+            }
+            .download-block{
+                width: 160px;
+            }
+            .home{
+                font-weight: bold;
+                font-size: 18px;
+                height: 20px;
+                padding-left: 16px;
+                color: white;
+            }
+            .search{
+                flex:1;
+                padding-left: 20px;
+                height: 30px; 
+                border: none;
+                border-radius: 18px;
+                background-color: white;
+            }
+            .search::placeholder{
+                font-size: 14px;
+            }
+            .download-button{
+                background-color:rgba(68, 0, 132, 0.263);
+                margin-left: 35px;
+                padding-left:16px;
+                padding-right: 16px;
+                padding-top: 8px;
+                padding-bottom: 8px; 
+                font-size: 16px;
+                border-color: white;
+                color: white;
+                border-width: 1.6px;
+                border-style: solid;
+                border-radius: 2px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="home-block">
+                <p class="home">Home</p>
+            </div>
+            <div class="search-block">
+                <input class="search" placeholder="Search">
+            </div>
+            <div class="download-block">
+                <button class="download-button">
+                    Download
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
