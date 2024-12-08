@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather-app.css">
+</head>
+<body>
+<div class="card">
+    <div class="search">
+            <input type="text" spellcheck="false" 
+            placeholder="Search city name" class="search-input js-input">
+            <button class="search-button js-search-button">
+                <img class="search-icon " src="./images/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid name of city</p>
+        </div>
+
+        <div class="weather">
+            <img src="./images/rain.png" class="weather-icon js-weather-icon">
+            <h1 class="temp">22&deg;C</h1>
+            <h2 class="city">New York</h2>
+
+            <div class="detail">
+                <div class="detail-col">
+                    <img src="./images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>   
+                </div>
+                <div class="detail-col">
+                    <img src="./images/wind.png">
+                    <div>
+                        <p class="wind">15 Km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+    <script src="./weather-app.js">
+    </script>
+</body>
+</html>
+
+<!--
+  ---Developers note---
+these codes are all referred from youtube(https://www.youtube.com/watch?v=MIYQR-Ybrn4&t=232s)
+ // need to add weather animation instead of  weather icon
+ //need for background display
+ //adding location of the device for auto display 
+ //debugg
+
+ ##lessons learned
+ 1. using linear gradient as background in css
+ 2. using boxsizing: border-box;
+ 3. linking to other url and fetching data
+ */-->
+
